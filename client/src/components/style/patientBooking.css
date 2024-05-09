@@ -1,0 +1,110 @@
+.booking-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: calc(50% - 40px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.doctor-cards {
+    margin-bottom: 20px;
+}
+
+.doctor-card {
+    display: inline-block;
+    width: calc(30% - 10px); /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.doctor-card:last-child {
+    margin-right: 0; /* Remove right margin for the last card */
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.doctor-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.doctor-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.time-slots {
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+.time-slot {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.time-slot p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.time-slot {
+    background-color: #c6e3cf;
+}
+
+.time-slot.taken {
+    background-color: #ffcccc; /* Light red for taken slots */
+}
+
+button[type="submit"] {
+    margin: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

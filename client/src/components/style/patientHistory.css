@@ -1,0 +1,72 @@
+.history-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.history-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-container li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 30%;
+    width: 40%;
+}
+
+.history-container li:last-child {
+    border-bottom: none;
+}
+
+.history-container p {
+    margin: 5px 0;
+}
+
+/* Style for the visit header */
+.visit-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+    margin-bottom: 5px; /* Space between headers */
+    text-align: center; /* Align text to the center */
+}
+
+.visit-header p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the visit details */
+.visit-details {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-top: none; /* Remove top border */
+    border-radius: 0 0 8px 8px; /* Rounded corners at the bottom */
+    padding: 10px;
+}
+
+.visit-details p {
+    margin: 5px 0; /* Add space between paragraphs */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for the download button */
+.visit-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin to separate button from text */
+}
+
+.visit-details button:hover {
+    background-color: #0056b3;
+}

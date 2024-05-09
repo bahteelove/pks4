@@ -1,0 +1,44 @@
+
+.data-inputs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.data-inputs label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.data-inputs input {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    margin-bottom: 10px;
+}
+
+.data-inputs button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.data-inputs button.close-btn {
+    background-color: #dc3545;
+}
+
+.data-inputs button:hover {
+    background-color: #0056b3;
+}
+
+.data-inputs button.close-btn:hover {
+    background-color: #c82333;
+}

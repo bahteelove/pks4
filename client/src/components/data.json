@@ -1,0 +1,103 @@
+{
+    "doctors": [
+        {
+            "doctor_id": 1,
+            "doctor_name": "Dr. Smith",
+            "specialization": "Cardiologist",
+            "avatar": "https://img.freepik.com/free-photo/handsome-smiling-medical-professional-examining-with-stethoscope-colored-background_662251-366.jpg",
+            "timeSlots": [
+                {
+                    "time": "09:00 AM",
+                    "status": "taken",
+                    "patient_id": 11
+                },
+                {
+                    "time": "10:00 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                },
+                {
+                    "time": "11:00 AM",
+                    "status": "taken",
+                    "patient_id": 12
+                }
+            ]
+        },
+        {
+            "doctor_id": 2,
+            "doctor_name": "Dr. Collins",
+            "specialization": "Orthopedic Surgeon",
+            "avatar": "https://img.freepik.com/free-photo/attractive-medical-professional-uniform-standing-with-arms-crossed-against-isolated-background_662251-416.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1711324800&semt=ais",
+            "timeSlots": [
+                {
+                    "time": "09:30 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                },
+                {
+                    "time": "10:30 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                },
+                {
+                    "time": "11:30 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                }
+            ]
+        },
+        {
+            "doctor_id": 3,
+            "doctor_name": "Dr. Brown",
+            "specialization": "Pediatrician",
+            "avatar": "https://img.freepik.com/premium-photo/studio-shot-young-handsome-indian-man-doctor-against-gray_251136-12627.jpg",
+            "timeSlots": [
+                {
+                    "time": "10:00 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                },
+                {
+                    "time": "11:00 AM",
+                    "status": "not taken",
+                    "patient_id": 0
+                },
+                {
+                    "time": "12:00 PM",
+                    "status": "not taken",
+                    "patient_id": 0
+                }
+            ]
+        }
+    ],
+    "patients": [
+        {
+            "patient_id": 11,
+            "patient_name": "John Doe",
+            "notes": "29-2-2024 19:45 || last visit (notes below)\nbroke leg with pencil",
+            "history": [
+                {
+                    "date": "10-03-2024, 17:00",
+                    "issue": "heart attack",
+                    "advice": "dont go to roller coaster x1",
+                    "recipe": "water, icecream, cola",
+                    "doctor": "Dr. Smith"
+                },
+                {
+                    "date": "1-03-2024, 17:00",
+                    "issue": "heart attack",
+                    "advice": "dont go to roller coaster x2",
+                    "recipe": "water, icecream, cola",
+                    "doctor": "Dr. Smith"
+                }
+            ]
+        },
+        {
+            "patient_id": 12,
+            "patient_name": "Alice Johnson",
+            "notes": "",
+            "history": [
+                
+            ]
+        }
+    ]}

@@ -1,0 +1,12 @@
+/* Additional CSS */
+
+/* Style for buttons in the admin panel */
+.module-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style for active tab button */
+.active {
+  background-color: #0056b3;
+}
